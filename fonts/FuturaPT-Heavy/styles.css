@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FuturaPT-Heavy';
+  src: url('FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),  url('FuturaPT-Heavy.otf')  format('opentype'),
+	     url('FuturaPT-Heavy.woff') format('woff'), url('FuturaPT-Heavy.ttf')  format('truetype'), url('FuturaPT-Heavy.svg#FuturaPT-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

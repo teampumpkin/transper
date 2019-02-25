@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FuturaStd-Bold';
+  src: url('https://pro-serv-tp.s3.amazonaws.com/Fonts_assets/FuturaStd-Bold/FuturaStd-Bold.eot?#iefix') format('embedded-opentype'),  url('https://pro-serv-tp.s3.amazonaws.com/Fonts_assets/FuturaStd-Bold/FuturaStd-Bold.otf')  format('opentype'),
+	     url('https://pro-serv-tp.s3.amazonaws.com/Fonts_assets/FuturaStd-Bold/FuturaStd-Bold.woff') format('woff'), url('https://pro-serv-tp.s3.amazonaws.com/Fonts_assets/FuturaStd-Bold/FuturaStd-Bold.ttf')  format('truetype'), url('https://pro-serv-tp.s3.amazonaws.com/Fonts_assets/FuturaStd-Bold/FuturaStd-Bold.svg#FuturaStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
