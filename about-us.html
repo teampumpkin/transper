@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+	<title>Transper</title>
+
+	<!-- Font Awesome Icons -->
+<!--	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto::400,600,700,800,300,100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300,100" rel="stylesheet">
+	<link href="css/creative.css" rel="stylesheet">
+	<link media="screen and (max-device-width: 992px)" href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<style type="text/css">
+	@media only screen and (min-width: 768px) {
+		a.nav-link.js-scroll-trigger.remove-cursor {
+			cursor: default !important;
+			pointer-events: none !important;
+		}
+		.row.journeyTwo,
+		.row.journeyFour {
+			padding: 30px 0px;
+		}
+		.row.journeyOne,
+		.row.journeyTwo,
+		.row.journeyThree,
+		.row.journeyFour {
+			max-width: 768px;
+			margin: 0 auto;
+		}
+		.journeyOne p.cta-text {
+			min-height: 72px;
+		}
+		.journeyTwo p.cta-text,
+		.journeyThree p.cta-text {
+			min-height: 96px;
+		}
+		.sj-1,
+		.sj-2,
+		.sj-3,
+		.sj-4 {
+			position: relative;
+			z-index: 2;
+		}
+		.sj-1::before {
+			border: 2px solid #07c69b;
+			border-radius: 0px 240px 240px 0px;
+			content: '';
+			width: 78%;
+			display: block;
+			min-height: 297px;
+			position: absolute;
+			top: 83%;
+			right: 5%;
+			border-left: 0px;
+			z-index: 0;
+		}
+		.sj-2::before {
+			border: 2px solid #07c69b;
+			border-radius: 240px 0px 0px 240px;
+			content: '';
+			width: 65%;
+			display: block;
+			min-height: 305px;
+			position: absolute;
+			top: 77%;
+			left: 3%;
+			border-right: 0px;
+			z-index: 0;
+		}
+		.sj-4::before {
+			border: 2px solid #07c69b;
+			border-radius: 0px 240px 240px 0px;
+			content: '';
+			width: 28%;
+			display: block;
+			min-height: 252px;
+			position: absolute;
+			top: -14%;
+			right: 5%;
+			border-left: 0px;
+			z-index: 0;
+		}
+		p.cta-text {
+			min-height: 50px;
+		}
+	}
+	
+	@media only screen and (max-width:768px) {
+		.row.journeyOne .col-md-4,
+		.row.journeyTwo .col-md-4,
+		.row.journeyThree .col-md-4 {
+			padding: 25px 0px;
+		}
+	}
+	
+	div#banner-text1 {
+		width: 100%;
+		background: #175c85;
+		margin-top: 63px;
+		padding: 1.2rem 0;
+	}
+	
+	.dateSection {
+		width: 80px;
+		height: 80px;
+		background: #07c69b;
+		border-radius: 50%;
+		color: #fff;
+		font-weight: 700;
+		text-align: center;
+		padding-top: 16px;
+	}
+	
+	section#team-section {
+		padding: 1.2rem 0;
+	}
+			
+		.team_membar .card-img-top {
+			filter: gray;
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+		}
+	/*	Our Journey Section*/
+
+</style>
+
+<body id="page-top">
+	<header id="header">
+		<!-- Navigation -->
+		<!--  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+		</nav> -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 notHomePage" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"><img class="logo" src="./img/logo_final1.svg"></a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto my-2 my-lg-0">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger bg-sweep-right" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger bg-sweep-right" href="about-us.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger bg-sweep-right" href="case-studies.html">Case Studies</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger bg-sweep-right" href="stakeholders-engagement.html">Stakeholders</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger bg-sweep-right" href="contact-us.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Masthead -->
+	<header class="abtHead" id="">
+		<div id="banner-text1">
+			<div class="container">
+				<h2 class="text-center mt-0 text-white">About Us</h2>
+				<hr class="divider my-4">
+				<p class="text-white text-center">
+					We are serial entrepreneurs and seasoned bankers. Not being paid on time was our biggest challenge. We started solving this problem and traced the payment trail back to the top of the pyramid and found that faster movement of money in deep supply chain can be profitable, not only for the bottom of the chain but for every one.
+				</p>
+			</div>
+		</div>
+	</header>
+	<!-----------------------team section ------------------->
+
+	<section id="team-section" style="background: #fff;position: relative;">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 align-self-end masthead">
+					<h2 class="text-center mt-0">Our Journey</h2>
+					<hr class="divider my-4">
+				</div>
+			</div>
+		</div>
+		<div class="container about-desktop">
+			<div class="innerJourneySection">
+				<div class="sj-1">
+					<div class="row journeyOne">
+
+						<div class="col-md-4">
+							<div>
+								<img src="img/journey/1.png" alt="Journey Icons" width="60">
+								<p class="cta-text">Started solving the problem of late payments</p>
+								<div class="dateSection">
+									<span>MAR</span><br>
+									<span>2017</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/2.png" alt="Journey Icons" width="60">
+							<p class="cta-text">Entered FCA Sandbox</p>
+							<div class="dateSection">
+								<span>JUN</span><br>
+								<span>2017</span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/3.png" alt="Journey Icons" width="60">
+							<p class="cta-text">Selected for Green Light Program and backed by Capital Enterprise</p>
+							<div class="dateSection">
+								<span>JUL</span><br>
+								<span>2017</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sj-2">
+					<div class="row journeyTwo">
+						<div class="col-md-4">
+							<div>
+								<img src="img/journey/4.png" alt="Journey Icons" width="60">
+								<p class="cta-text">Granted FCA Small Emoney Institute restricted license</p>
+								<div class="dateSection">
+									<span>OCT</span><br>
+									<span>2017</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/5.png" alt="Journey Icons" width="60">
+							<p class="cta-text">First MVP ready and tested the proposition in FCA Sandbox moving money</p>
+							<div class="dateSection">
+								<span>JUN</span><br>
+								<span>2018</span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/6.png" alt="Journey Icons" width="60">
+							<p class="cta-text">Entered Accenture Fintech innovation lab and worked with 37 Global banks</p>
+							<div class="dateSection">
+								<span>JAN</span><br>
+								<span>2018</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sj-3">
+					<div class="row journeyThree">
+						<div class="col-md-4">
+							<div>
+								<img src="img/journey/7.png" alt="Journey Icons" width="60">
+								<p class="cta-text">Developed a use case for augmenting existing Supply Chain Finance programme</p>
+								<div class="dateSection">
+									<span>APR</span><br>
+									<span>2018</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/8.png" alt="Journey Icons" width="60">
+							<p class="cta-text">Entered London and Partners Business Growth Programme</p>
+							<div class="dateSection">
+								<span>JUN</span><br>
+								<span>2018</span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="img/journey/9.png" alt="Journey Icons" width="60">
+							<p class="cta-text">Raised seed round of $ 1 million from Pi Ventures</p>
+							<div class="dateSection">
+								<span>NOV</span><br>
+								<span>2018</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sj-4">
+					<div class="row journeyFour">
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div>
+								<img src="img/journey/10.png" alt="Journey Icons" width="60">
+								<p class="cta-text">Strategic partnership with a global bank for global pilots</p>
+								<div class="dateSection">
+									<span>JUN</span><br>
+									<span>2019</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- our team -->
+
+	<section class="page-section" id="ourteam">
+		<div class="col-lg-12 align-self-end masthead">
+			<h2 class="text-center mt-0">Our Team</h2>
+			<hr class="divider my-4">
+		</div>
+		<!-- Page Content -->
+		<div class="container">
+			<div class="row">
+				<!-- Team Member 1 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/7nishantt/" target="_blank">
+							<img src="img/team/final/Nishant-Profile-Pic.jpg" class="card-img-top" alt="Nishant Singh Founder of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Nishant Singh</h5>
+								<div class="card-text text-black-50">Founder</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Team Member 2 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/nishatsingh/" target="_blank">
+							<img src="img/team/final/Nisha-Profile-Pic.jpg" class="card-img-top" alt="Nisha Singh Co-Founder & Director of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Nisha Singh</h5>
+								<div class="card-text text-black-50"> Co-Founder</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Team Member 3 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/company/transper/about/" target="_blank">
+							<img src="img/team/final/Parth.jpg" class="card-img-top" alt="Parth Joshi Co-founder of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0"> Parth Joshi</h5>
+								<div class="card-text text-black-50">Co-founder </div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Team Member 4 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/company/transper/about/" target="_blank">
+							<img src="img/team/final/Ruchit.jpg" class="card-img-top" alt="Ruchit Harde Co-founder of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0"> Ruchit Harde</h5>
+								<div class="card-text text-black-50">Co-founder</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Team Member 5 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/gerokeeffe/?originalSubdomain=uk" target="_blank">
+							<img src="img/team/final/Gerard.jpg" class="card-img-top" alt="Gerard O'Keeffe Advisor of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Gerard O&#146;Keeffe</h5>
+								<div class="card-text text-black-50">Advisor </div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Team Member 6 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/bob-hannon-92151715/" target="_blank">
+							<img src="img/team/final/Bob.jpg" class="card-img-top" alt=" Bob Hannon Advisor of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0"> Bob Hannon</h5>
+								<div class="card-text text-black-50">Advisor</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Team Member 7 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/andrew-mills-688238/" target="_blank">
+							<img src="img/team/final/Andrew.jpg" class="card-img-top" alt="Andrew Mills Advisor of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Andrew Mills</h5>
+								<div class="card-text text-black-50">Advisor</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Team Member 8 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/nareshkumar82/" target="_blank">
+							<img src="img/team/final/Naresh-Kumar.jpg" class="card-img-top" alt="Naresh Kumar Advisor of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Naresh Kumar</h5>
+								<div class="card-text text-black-50">Advisor</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Team Member 9 -->
+				<div class="col-xl-4 col-md-6 mb-4">
+					<div class="card border-0  team_membar">
+						<a href="https://www.linkedin.com/in/simon-featherstone-93b14552/" target="_blank">
+							<img src="img/team/final/simon-featherstone.jpg" class="card-img-top" alt="Simon Featherstone Advisor of Transper">
+							<div class="card-body text-center">
+								<h5 class="card-title mb-0">Simon Featherstone</h5>
+								<div class="card-text text-black-50">Advisor</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+	</section>
+
+	<!-- our team -->
+
+	<!-- /.container -->
+	<section class="page-section" id="about">
+		<div class="col-lg-12 align-self-end masthead">
+			<h2 class="text-center mt-0">About our investors</h2>
+			<hr class="divider my-4">
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-12 ">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<p class="mb-4"><a href="http://www.piventures.in/" target="_blank">pi Ventures</a> is India’s first Applied Artificial Intelligence, Machine Learning, IoT and Blockchain focused early stage venture fund. pi is a USD 33 Mn fund based in Bangalore, India and invests at Seed or pre-Series A stage. pi Ventures focuses on healthcare, logistics, retail, fin-tech and enterprise sectors. Backed by some of the leading Institutions, such as IFC, CDC UK, Accel partners, SIDBI etc., and accomplished entrepreneurs globally, pi Ventures brings hands-on product and entrepreneurial experience to the India venture investing ecosystem.
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer class="bg-black py-5" id="footer">
+		<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="footercontent">
+							<h5 class="text-white">CONTACT INFO</h5>
+							<p class="text-white-75">1st Floor Anchorage House, <br>2 Clove Crescent, <br>London, United Kingdom, E14 2BE</p>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="footercontent footer-sec-2">
+							<h5 class="text-white">CASE STUDIES</h5>
+							<ul class="text-white-75">
+								<li><a href="case-studies.html#transper-dtf" class="text-white-75">Deep Tier Supply Chain Finance</a></li>
+								<li><a href="case-studies.html#transper-scf" class="text-white-75">Supply Chain Finanace</a></li>
+								<li><a href="case-studies.html#transper-pf" class="text-white-75">Project Finance</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="footercontent footer-sec-2">
+							<h5 class="text-white">Site Links</h5>
+							<ul class="text-white-75">
+								<li><a href="about-us.html" class="text-white-75">About us</a></li>
+								<li><a href="case-studies.html" class="text-white-75">Case Studies</a></li>
+								<li><a href="stakeholders-engagement.html" class="text-white-75">Stakeholders</a></li>
+								<li><a href="contact-us.html" class="text-white-75">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			<div class="small text-white-75 text-center">Copyright &copy; 2019 - Transper</div>
+		</div>
+	</footer>
+	<!-- footer ends -->
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/creative.js"></script>
+</body>
+</html>
