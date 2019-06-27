@@ -11,7 +11,7 @@
 	<title>Transper :: Home</title>
 
 	<!-- Font Awesome Icons -->
-<!--	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
+	<!--	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
 	<!-- bootstrap 4 -->
 
 	<link href="vendor/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
@@ -62,7 +62,8 @@
 		div#banner-text1 p {
 			color: #212529 !important;
 			padding: 25px 0px;
-		}	
+		}
+		
 		a.nav-link.js-scroll-trigger.remove-cursor {
 			cursor: default !important;
 			pointer-events: none !important;
@@ -94,14 +95,13 @@
 		
 		.customBanHead {
 			font-weight: 500;
-    text-shadow: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-	text-transform: capitalize;
-	padding-bottom: 12.5px;
-    display: block;
+			text-shadow: none;
+			font-family: 'Roboto', sans-serif;
+			font-size: 19px;
+			padding-bottom: 12.5px;
+			display: block;
 		}
-
+		.container-anim{display: none;}
 	</style>
 </head>
 
@@ -139,7 +139,7 @@
 	<!-- Masthead -->
 	<header class="masthead">
 		<div class="container-anim">
-			<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="9800">
+			<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="10000">
 
 				<!-- Indicators -->
 				<ul class="carousel-indicators">
@@ -415,8 +415,7 @@
 	<!-- banner text -->
 	<div id="banner-text1">
 		<div class="container">
-			<p class="text-white text-center"><span class="customBanHead">Transper is a fintech platform that provides liquidity and transparency in deep supply chains reducing costs and credit risk.</span>
-				Transper helps corporates provide transferable payment obligations against accepted invoices which is a promise to pay the holder on the due date. It is used by the suppliers to transfer in their supply chain creating liquidity. These payment obligations are financed by banks on Transper for providing instant Money.
+			<p class="text-white text-center"><span class="customBanHead">Transper is a fintech platform that provides liquidity and transparency in deep supply chains reducing costs and credit risk.</span> Transper helps corporates provide transferable payment obligations against accepted invoices which is a promise to pay the holder on the due date. It is used by the suppliers to transfer in their supply chain creating liquidity. These payment obligations are financed by banks on Transper for providing instant Money.
 			</p>
 
 		</div>
@@ -729,36 +728,36 @@
 	<footer class="bg-black py-5" id="footer">
 		<div class="container">
 			<div class="row">
-					<div class="col-sm-4">
-						<div class="footercontent">
-							<h5 class="text-white">CONTACT INFO</h5>
-							<p class="text-white-75">1st Floor Anchorage House, <br>2 Clove Crescent, <br>London, United Kingdom, E14 2BE</p>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="footercontent footer-sec-2">
-							<h5 class="text-white">CASE STUDIES</h5>
-							<ul class="text-white-75">
-								<li><a href="case-studies.html#transper-dtf" class="text-white-75">Deep Tier Supply Chain Finance</a></li>
-								<li><a href="case-studies.html#transper-scf" class="text-white-75">Supply Chain Finanace</a></li>
-								<li><a href="case-studies.html#transper-pf" class="text-white-75">Project Finance</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="footercontent footer-sec-2">
-							<h5 class="text-white">Site Links</h5>
-							<ul class="text-white-75">
-								<li><a href="about-us.html" class="text-white-75">About Us</a></li>
-								<li><a href="case-studies.html" class="text-white-75">Case Studies</a></li>
-								<li><a href="stakeholders-engagement.html" class="text-white-75">Stakeholders</a></li>
-								<li><a href="contact-us.html" class="text-white-75">Contact Us</a></li>
-							</ul>
-						</div>
+				<div class="col-sm-4">
+					<div class="footercontent">
+						<h5 class="text-white">CONTACT INFO</h5>
+						<p class="text-white-75">1st Floor Anchorage House, <br>2 Clove Crescent, <br>London, United Kingdom, E14 2BE</p>
 					</div>
 				</div>
+
+				<div class="col-sm-4">
+					<div class="footercontent footer-sec-2">
+						<h5 class="text-white">CASE STUDIES</h5>
+						<ul class="text-white-75">
+							<li><a href="case-studies.html#transper-dtf" class="text-white-75">Deep Tier Supply Chain Finance</a></li>
+							<li><a href="case-studies.html#transper-scf" class="text-white-75">Supply Chain Finanace</a></li>
+							<li><a href="case-studies.html#transper-pf" class="text-white-75">Project Finance</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="footercontent footer-sec-2">
+						<h5 class="text-white">Site Links</h5>
+						<ul class="text-white-75">
+							<li><a href="about-us.html" class="text-white-75">About Us</a></li>
+							<li><a href="case-studies.html" class="text-white-75">Case Studies</a></li>
+							<li><a href="stakeholders-engagement.html" class="text-white-75">Stakeholders</a></li>
+							<li><a href="contact-us.html" class="text-white-75">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="small text-white-75 text-center">Copyright &copy; 2019 - Transper</div>
 		</div>
 	</footer>
@@ -769,6 +768,8 @@
 	<script src="js/creative.js"></script>
 	<script>
 		(function() {
+
+
 
 			let slone = $('div.slideOne').html();
 			let sltwo = $('div.slideTwo').html();
@@ -859,9 +860,12 @@
 
 			jQuery(document).ready(function() {
 
-				jQuery("#myCarousel").on('slid.bs.carousel', resetStackClasses);
-				jQuery("#myCarousel").on('slide.bs.carousel', resetStackClasses);
-				
+				//load main div after 1 sec
+				$('.container-anim').delay(1000).fadeIn(100);
+
+				$("#myCarousel").on('slid.bs.carousel', resetStackClasses);
+				$("#myCarousel").on('slide.bs.carousel', resetStackClasses);
+
 				//For the touch swipe events carousel.
 				$(".carousel").on("touchstart", function(event) {
 					var xClick = event.originalEvent.touches[0].pageX;

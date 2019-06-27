@@ -12,6 +12,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+
+
 :root {
 	--blue: #007bff;
 	--indigo: #6610f2;
@@ -12044,6 +12047,10 @@ nav#mainNav.sticky a.nav-link.js-scroll-trigger.bg-sweep-right::after {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
 	color: #fff;
 }
+
+
+
+
 .innerContainer {
 	padding: 30px 0px;
 }
