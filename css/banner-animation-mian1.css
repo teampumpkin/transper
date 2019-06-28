@@ -33,9 +33,11 @@
 
 header.masthead {
 	padding-top: 62px;
+	
+}
+.container-anim {
 	background: #175c85;
 }
-
 .header-banner {
 	color: #fff;
 	padding: 5% 0px 5% 16px;
