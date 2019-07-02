@@ -9,12 +9,9 @@
 	<meta name="author" content="">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
 	<title>Transper :: Home</title>
-
-	<!-- Font Awesome Icons -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 	<!-- bootstrap 4 -->
 
-	<link href="vendor/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+	<link href="vendor/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<!-- bootstrap 4 -->
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto::400,600,700,800,300,100" rel="stylesheet">
@@ -102,7 +99,7 @@
 			display: block;
 		}
 		
-		.container-anim {
+		.innerContainerAnim {
 			display: none;
 		}
 		
@@ -151,6 +148,7 @@
 	<!-- Masthead -->
 	<header class="masthead">
 		<div class="container-anim">
+			<div class="innerContainerAnim">
 			<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="10500">
 
 				<!-- Indicators -->
@@ -422,6 +420,7 @@
 				</div>
 
 			</div>
+		</div>
 		</div>
 	</header>
 	<!-- banner text -->
@@ -871,7 +870,7 @@
 			jQuery(document).ready(function() {
 
 				//load main animation div after 1 sec of page load
-				$('.container-anim').delay(1000).fadeIn(100);
+				$('.innerContainerAnim').delay(1000).fadeIn(100);
 
 				$("#myCarousel").on('slid.bs.carousel', resetStackClasses);
 				$("#myCarousel").on('slide.bs.carousel', resetStackClasses);
