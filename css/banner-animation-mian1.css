@@ -22,39 +22,36 @@
 	margin: 0 auto;
 	height: calc(100vh - 63px);
 	position: relative;
-	display: table;
+	    display: table;
 }
-
 .innerMainWrap {
-	display: table;
-	width: 100%;
+    display: table;
+    width: 100%;
 	height: 100%;
 }
-
 header.masthead {
-	padding-top: 62px;
-	
+    padding-top: 62px;
+    background: #175c85;
 }
-.container-anim {
-	background: #175c85;
-}
+
 .header-banner {
-	color: #fff;
-	padding: 5% 0px 5% 16px;
-	display: table-cell;
-	vertical-align: middle;
+	
+	 color: #fff;
+    padding: 5% 0px 5% 16px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .header-banner .flicker {
 	font-family: 'Roboto', 'OpenSans';
-	font-size: 60px;
+	    font-size: 60px;
 	font-weight: 300;
 	line-height: 1.3em;
-	transform: scale(1, 1.05);
-	-webkit-transform: scale(1, 1.05);
-	-moz-transform: scale(1, 1.05);
-	-ms-transform: scale(1, 1.05);
-	-o-transform: scale(1, 1.05);
+    transform: scale(1, 1.05);
+     -webkit-transform: scale(1, 1.05); 
+    -moz-transform: scale(1, 1.05);
+    -ms-transform: scale(1, 1.05);
+    -o-transform: scale(1, 1.05);
 }
 
 .flicker {
@@ -63,22 +60,21 @@ header.masthead {
 
 .header-animation-right {
 	color: #fff;
-	display: table-cell;
-	vertical-align: middle;
-	padding: 5% 16px 5% 0px;
-	width: 40em;
+    display: table-cell;
+    vertical-align: middle;
+       padding: 5% 16px 5% 0px;
+    width: 40em;
 }
-
 .header-animation-right1 span {
-	font-family: Roboto, OpenSans;
-	font-weight: 200;
-	transform: scale(1, 1.05);
-	-webkit-transform: scale(1, 1.05);
-	-moz-transform: scale(1, 1.05);
-	-ms-transform: scale(1, 1.05);
-	-o-transform: scale(1, 1.05);
+font-family: Roboto, OpenSans;
+/*	font-weight: 300;*/
+	    font-weight: 200;
+         transform: scale(1, 1.05); 
+     -webkit-transform: scale(1, 1.05); 
+    -moz-transform: scale(1, 1.05);
+    -ms-transform: scale(1, 1.05);
+    -o-transform: scale(1, 1.05);
 }
-
 .animate-flicker6 {
 	text-align: center;
 }
@@ -101,8 +97,21 @@ header.masthead {
 
 .blue {
 	position: relative;
+/*	left: 23px;*/
 	top: -10px;
 	z-index: 1;
+}
+
+.prime1 {
+
+}
+
+.prime {
+
+}
+
+.sub {
+
 }
 
 .innerPrime1 span.animateSlowFliker,
@@ -332,6 +341,82 @@ header.masthead {
 	}
 }
 
+
+/*For Total Time of 12S == (1S Animation + 2S Pause)x4 iterations. */
+
+
+/*
+@-webkit-keyframes arrow-jump {
+	0% {
+		height: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+	8.33%,
+	25% {
+		height: 70px;
+		opacity: 1;
+		visibility: visible;
+	}
+	33.33%,
+	50% {
+		height: 140px;
+		opacity: 1;
+		visibility: visible;
+	}
+	58.33%,
+	75% {
+		height: 210px;
+		opacity: 1;
+		visibility: visible;
+	}
+	83.33%,
+	100% {
+		height: 280px;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+*/
+
+
+/*For Total Time of 16S == (2S Animation + 2S Pause)x4 iterations. */
+/*
+
+@-webkit-keyframes arrow-jump {
+	0% {
+		height: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+	12.50%,
+	25% {
+		height: 70px;
+		opacity: 1;
+		visibility: visible;
+	}
+	37.50%,
+	50% {
+		height: 140px;
+		opacity: 1;
+		visibility: visible;
+	}
+	62.50%,
+	75% {
+		height: 210px;
+		opacity: 1;
+		visibility: visible;
+	}
+	87.50%,
+	100% {
+		height: 280px;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+*/
+
+/*For Total Time of 4.8S == (600ms/1000ms Animation + 600ms/1000ms Pause)x4 iterations. */
 @-webkit-keyframes arrow-jump {
 	0% {
 		height: 0px;
@@ -363,8 +448,6 @@ header.masthead {
 		visibility: visible;
 	}
 }
-
-
 /************************
 *************************
 **************************/
@@ -455,7 +538,7 @@ header.masthead {
 		opacity: 1;
 	}
 	100% {
-		transform: translatex(-91px) translatey(92px);
+		       transform: translatex(-91px) translatey(92px);
 		z-index: 7;
 	}
 }
@@ -491,7 +574,7 @@ header.masthead {
 		opacity: 1;
 	}
 	100% {
-		transform: translatex(-90px) translatey(68px);
+		    transform: translatex(-90px) translatey(68px);
 		z-index: 5;
 	}
 }
@@ -529,7 +612,7 @@ header.masthead {
 		opacity: 1;
 	}
 	100% {
-		transform: translatex(90px) translatey(77px);
+		 transform: translatex(90px) translatey(77px);
 	}
 }
 
@@ -559,89 +642,89 @@ header.masthead {
 
 .animate-flicker {
 	opacity: 0;
+	-webkit-animation: leftToRght 300ms linear 100ms forwards;
+	-moz-animation: leftToRght 300ms linear 100ms forwards;
+	-o-animation: leftToRght 300ms linear 100ms forwards;
+	animation: leftToRght 300ms linear 100ms forwards;
+}
+
+.animate-flicker1 {
+	opacity: 0;
 	-webkit-animation: leftToRght 300ms linear 600ms forwards;
 	-moz-animation: leftToRght 300ms linear 600ms forwards;
 	-o-animation: leftToRght 300ms linear 600ms forwards;
 	animation: leftToRght 300ms linear 600ms forwards;
 }
 
-.animate-flicker1 {
-	opacity: 0;
-	-webkit-animation: leftToRght 300ms linear 1300ms forwards;
-	-moz-animation: leftToRght 300ms linear 1300ms forwards;
-	-o-animation: leftToRght 300ms linear 1300ms forwards;
-	animation: leftToRght 300ms linear 1300ms forwards;
-}
-
 .animate-flicker3 {
 	opacity: 0;
-	-webkit-animation: leftToRght 300ms linear 1800ms forwards;
-	-moz-animation: leftToRght 300ms linear 1800ms forwards;
-	-o-animation: leftToRght 300ms linear 1800ms forwards;
-	animation: leftToRght 300ms linear 1800ms forwards;
+	-webkit-animation: leftToRght 300ms linear 1100ms forwards;
+	-moz-animation: leftToRght 300ms linear 1100ms forwards;
+	-o-animation: leftToRght 300ms linear 1100ms forwards;
+	animation: leftToRght 300ms linear 1100ms forwards;
 }
 
 .animate-flicker4 {
 	opacity: 0;
-	-webkit-animation: leftToRght 300ms linear 2400ms forwards;
-	-moz-animation: leftToRght 300ms linear 2400ms forwards;
-	-o-animation: leftToRght 300ms linear 2400ms forwards;
-	animation: leftToRght 300ms linear 2400ms forwards;
+	-webkit-animation: leftToRght 300ms linear 1600ms forwards;
+	-moz-animation: leftToRght 300ms linear 1600ms forwards;
+	-o-animation: leftToRght 300ms linear 1600ms forwards;
+	animation: leftToRght 300ms linear 1600ms forwards;
 }
 
 .animate-flicker5 {
 	opacity: 0;
-	-webkit-animation: leftToRght 300ms linear 3000ms forwards;
-	-moz-animation: leftToRght 300ms linear 3000ms forwards;
-	-o-animation: leftToRght 300ms linear 3000ms forwards;
-	animation: leftToRght 300ms linear 3000ms forwards;
+	-webkit-animation: leftToRght 300ms linear 2100ms forwards;
+	-moz-animation: leftToRght 300ms linear 2100ms forwards;
+	-o-animation: leftToRght 300ms linear 2100ms forwards;
+	animation: leftToRght 300ms linear 2100ms forwards;
 }
 
 .animate-flicker6 {
 	opacity: 0;
-	-webkit-animation: flickerAnimation 300ms linear 3600ms forwards;
-	-moz-animation: flickerAnimation 300ms linear 3600ms forwards;
-	-o-animation: flickerAnimation 300ms linear 3600ms forwards;
-	animation: flickerAnimation 300ms linear 3600ms forwards;
+	-webkit-animation: flickerAnimation 300ms linear 2700ms forwards;
+	-moz-animation: flickerAnimation 300ms linear 2700ms forwards;
+	-o-animation: flickerAnimation 300ms linear 2700ms forwards;
+	animation: flickerAnimation 300ms linear 2700ms forwards;
 }
 
 .animate-flicker7 {
 	opacity: 0;
-	-moz-animation: flickerAnimation 300ms ease-in 5000ms forwards;
-	-webkit-animation: flickerAnimation 300ms ease-in 5000ms forwards;
-	-o-animation: flickerAnimation 300ms ease-in 5000ms forwards;
-	animation: flickerAnimation 300ms ease-in 5000ms forwards;
+	-moz-animation: flickerAnimation 300ms ease-in 4200ms forwards;
+	-webkit-animation: flickerAnimation 300ms ease-in 4200ms forwards;
+	-o-animation: flickerAnimation 300ms ease-in 4200ms forwards;
+	animation: flickerAnimation 300ms ease-in 4200ms forwards;
 }
 
 .animate-flicker8 {
 	opacity: 0;
-	-moz-animation: flickerAnimation 300ms ease-in 6300ms forwards;
-	-webkit-animation: flickerAnimation 300ms ease-in 6300ms forwards;
-	-o-animation: flickerAnimation 300ms ease-in 6300ms forwards;
-	animation: flickerAnimation 300ms ease-in 6300ms forwards;
+	-moz-animation: flickerAnimation 300ms ease-in 5400ms forwards;
+	-webkit-animation: flickerAnimation 300ms ease-in 5400ms forwards;
+	-o-animation: flickerAnimation 300ms ease-in 5400ms forwards;
+	animation: flickerAnimation 300ms ease-in 5400ms forwards;
 }
 
 .animate-flicker9 {
 	opacity: 0;
-	-moz-animation: flickerAnimation 300ms ease-in 7600ms forwards;
-	-webkit-animation: flickerAnimation 300ms ease-in 7600ms forwards;
-	-o-animation: flickerAnimation 300ms ease-in 7600ms forwards;
-	animation: flickerAnimation 300ms ease-in 7600ms forwards;
+	-moz-animation: flickerAnimation 300ms ease-in 6800ms forwards;
+	-webkit-animation: flickerAnimation 300ms ease-in 6800ms forwards;
+	-o-animation: flickerAnimation 300ms ease-in 6800ms forwards;
+	animation: flickerAnimation 300ms ease-in 6800ms forwards;
 }
 
 .animate-flicker10 {
 	opacity: 0;
-	-moz-animation: flickerAnimation 300ms ease-in 8700ms forwards;
-	-webkit-animation: flickerAnimation 300ms ease-in 8700ms forwards;
-	-o-animation: flickerAnimation 300ms ease-in 8700ms forwards;
-	animation: flickerAnimation 300ms ease-in 8700ms forwards;
+	-moz-animation: flickerAnimation 300ms ease-in 8000ms forwards;
+	-webkit-animation: flickerAnimation 300ms ease-in 8000ms forwards;
+	-o-animation: flickerAnimation 300ms ease-in 8000ms forwards;
+	animation: flickerAnimation 300ms ease-in 8000ms forwards;
 }
 
 #arrow {
-	-webkit-animation: arrow-jump 4800ms forwards 4700ms;
-	-moz-animation: arrow-jump 4800ms forwards 4700ms;
-	-o-animation: arrow-jump 4800ms forwards 4700ms;
-	animation: arrow-jump 4800ms forwards 4700ms;
+	-webkit-animation: arrow-jump 4800ms forwards 3800ms;
+	-moz-animation: arrow-jump 4800ms forwards 3800ms;
+	-o-animation: arrow-jump 4800ms forwards 3800ms;
+	animation: arrow-jump 4800ms forwards 3800ms;
 	visibility: hidden;
 }
 
@@ -661,16 +744,13 @@ header.masthead {
 	height: 10px;
 	background: #07c69b;
 }
-
 .header-animation-right1 {
-	position: relative;
-	left: -2.5%;
+    position: relative;
+    left: -2.5%;
 }
-
-.slideOne .header-animation-right1,
-.slideThree .header-animation-right1 {
-	position: relative;
-	left: 4%;
+.slideOne .header-animation-right1, .slideThree .header-animation-right1 {
+    position: relative;
+    left: 4%;
 }
 
 .box-wrapper {
@@ -714,6 +794,12 @@ header.masthead {
 	z-index: 2;
 }
 
+/*
+.carousel-indicators {
+	display: none;
+}
+*/
+
 .prime1 .singleStack {
 	position: relative;
 	left: 40px;
@@ -726,31 +812,31 @@ header.masthead {
 ******************************/
 
 .stackFourDiagonalOne {
-	-webkit-animation: diagonalRightBottomOne 600ms forwards 4700ms;
-	-moz-animation: diagonalRightBottomOne 600ms forwards 4700ms;
-	-o-animation: diagonalRightBottomOne 600ms forwards 4700ms;
-	animation: diagonalRightBottomOne 600ms forwards 4700ms;
+	-webkit-animation: diagonalRightBottomOne 600ms forwards 3800ms;
+	-moz-animation: diagonalRightBottomOne 600ms forwards 3800ms;
+	-o-animation: diagonalRightBottomOne 600ms forwards 3800ms;
+	animation: diagonalRightBottomOne 600ms forwards 3800ms;
 }
 
 .stackFourDiagonalTwo {
-	-webkit-animation: diagonalRightBottomTwo 600ms forwards 4700ms;
-	-moz-animation: diagonalRightBottomTwo 600ms forwards 4700ms;
-	-o-animation: diagonalRightBottomTwo 600ms forwards 4700ms;
-	animation: diagonalRightBottomTwo 600ms forwards 4700ms;
+	-webkit-animation: diagonalRightBottomTwo 600ms forwards 3800ms;
+	-moz-animation: diagonalRightBottomTwo 600ms forwards 3800ms;
+	-o-animation: diagonalRightBottomTwo 600ms forwards 3800ms;
+	animation: diagonalRightBottomTwo 600ms forwards 3800ms;
 }
 
 .stackFourDiagonalThree {
-	-webkit-animation: diagonalRightBottomThree 600ms forwards 4700ms;
-	-moz-animation: diagonalRightBottomThree 600ms forwards 4700ms;
-	-o-animation: diagonalRightBottomThree 600ms forwards 4700ms;
-	animation: diagonalRightBottomThree 600ms forwards 4700ms;
+	-webkit-animation: diagonalRightBottomThree 600ms forwards 3800ms;
+	-moz-animation: diagonalRightBottomThree 600ms forwards 3800ms;
+	-o-animation: diagonalRightBottomThree 600ms forwards 3800ms;
+	animation: diagonalRightBottomThree 600ms forwards 3800ms;
 }
 
 .stackFourDiagonalFour {
-	-webkit-animation: diagonalRightBottomFour 600ms forwards 4700ms;
-	-moz-animation: diagonalRightBottomFour 600ms forwards 4700ms;
-	-o-animation: diagonalRightBottomFour 600ms forwards 4700ms;
-	animation: diagonalRightBottomFour 600ms forwards 4700ms;
+	-webkit-animation: diagonalRightBottomFour 600ms forwards 3800ms;
+	-moz-animation: diagonalRightBottomFour 600ms forwards 3800ms;
+	-o-animation: diagonalRightBottomFour 600ms forwards 3800ms;
+	animation: diagonalRightBottomFour 600ms forwards 3800ms;
 }
 
 
@@ -761,7 +847,7 @@ header.masthead {
 .stackThreeDiagonalThree {
 	position: relative;
 	left: 133px;
-	top: 105px;
+    top: 105px;
 	z-index: 2;
 	-webkit-animation: diagonalLeftBottomThree 600ms forwards 600ms;
 	-moz-animation: diagonalLeftBottomThree 600ms forwards 600ms;
@@ -771,8 +857,8 @@ header.masthead {
 
 .stackThreeDiagonalTwo {
 	position: relative;
-	left: 151px;
-	top: 112px;
+	    left: 151px;
+    top: 112px;
 	z-index: 3;
 	-webkit-animation: diagonalLeftBottomTwo 600ms forwards 600ms;
 	-moz-animation: diagonalLeftBottomTwo 600ms forwards 600ms;
@@ -783,7 +869,7 @@ header.masthead {
 .stackThreeDiagonalOne {
 	position: relative;
 	left: 170px;
-	top: 118.5px;
+    top: 118.5px;
 	z-index: 4;
 	-webkit-animation: diagonalLeftBottomOne 600ms forwards 600ms;
 	-moz-animation: diagonalLeftBottomOne 600ms forwards 600ms;
@@ -796,10 +882,10 @@ header.masthead {
 *******************************
 ******************************/
 
-.stackTwoDiagonalTwo {
+.stackTwoDiagonalTwo {	 
 	position: relative;
-	left: 60px;
-	top: 194px;
+	    left: 60px;
+    top: 194px;
 	z-index: 5;
 	-webkit-animation: diagonalRightBottomTwoInTwo 600ms forwards 600ms;
 	-moz-animation: diagonalRightBottomTwoInTwo 600ms forwards 600ms;
@@ -809,8 +895,8 @@ header.masthead {
 
 .stackTwoDiagonalOne {
 	position: relative;
-	left: 42px;
-	top: 201.5px;
+	    left: 42px;
+    top: 201.5px;
 	z-index: 6;
 	-webkit-animation: diagonalRightBottomTwoInOne 600ms forwards 600ms;
 	-moz-animation: diagonalRightBottomTwoInOne 600ms forwards 600ms;
@@ -825,8 +911,8 @@ header.masthead {
 
 .stackOneDiagonalOne {
 	position: relative;
-	left: 131px;
-	top: 278.5px;
+	    left: 131px;
+    top: 278.5px;
 	z-index: 8;
 	-webkit-animation: diagonalLeftBottomOneFinal 600ms forwards 600ms;
 	-moz-animation: diagonalLeftBottomOneFinal 600ms forwards 600ms;
@@ -836,10 +922,10 @@ header.masthead {
 
 .animateApperLate {
 	opacity: 0;
-	-webkit-animation: flickerAnimation 300ms linear 4200ms forwards;
-	-moz-animation: flickerAnimation 300ms linear 4200ms forwards;
-	-o-animation: flickerAnimation 300ms linear 4200ms forwards;
-	animation: flickerAnimation 300ms linear 4200ms forwards;
+	-webkit-animation: flickerAnimation 300ms linear 3300ms forwards;
+	-moz-animation: flickerAnimation 300ms linear 3300ms forwards;
+	-o-animation: flickerAnimation 300ms linear 3300ms forwards;
+	animation: flickerAnimation 300ms linear 3300ms forwards;
 }
 
 .threeStackImg {
@@ -866,143 +952,111 @@ header.masthead {
 	margin: 0 auto;
 	position: relative;
 }
-
 .slideOne span.animateFastFliker {
-	position: relative;
-	left: 10px;
+    position: relative;
+    left: 10px;
 }
-
 .slideThree span.animateFastFliker {
-	position: relative;
-	left: 10px;
+    position: relative;
+    left: 10px;
 }
-
-
 /*
 span.adjustPostion {
 	position: relative;
     left: -26px;
 }
 */
-
-
+	
 /*	For animation coins adjustments */
-
-.slideOne span.adjustPostion,
-.slideThree span.adjustPostion {
-	position: relative;
-	left: -30px;
-}
-
-.slideTwo span.adjustPostion,
-.slideFour span.adjustPostion {
-	position: relative;
-	left: -40px;
-}
-
-.slideOne .stackThreeDiagonalThree,
-.slideThree .stackThreeDiagonalThree {
-	position: relative;
-	left: 141px;
-	top: 104.5px;
-}
-
-.slideOne .stackThreeDiagonalTwo,
-.slideThree .stackThreeDiagonalTwo {
-	position: relative;
-	left: 160px;
-	top: 110.5px;
-}
-
-.slideOne .stackThreeDiagonalOne,
-.slideThree .stackThreeDiagonalOne {
-	position: relative;
-	left: 178.5px;
-	top: 116.5px;
-}
-
-
-/*//////////////////////*/
-
-
-/*////////////////////////*/
-
-.slideOne .stackTwoDiagonalTwo,
-.slideThree .stackTwoDiagonalTwo {
-	position: relative;
-	left: 69px;
-	top: 190.5px;
-}
-
-.slideOne .stackTwoDiagonalOne,
-.slideThree .stackTwoDiagonalOne {
-	position: relative;
-	left: 50px;
-	top: 196.5px;
-}
-
-
-/*///////////////////
+    .slideOne span.adjustPostion, .slideThree span.adjustPostion {
+        position: relative;
+        left: -30px;
+    }
+     .slideTwo span.adjustPostion,
+    .slideFour span.adjustPostion {
+         position: relative;
+        left: -40px;
+    }
+    
+	.slideOne .stackThreeDiagonalThree,
+	.slideThree .stackThreeDiagonalThree {
+        position: relative;
+        left: 141px;
+        top: 104.5px;
+	}
+	.slideOne .stackThreeDiagonalTwo,
+	.slideThree .stackThreeDiagonalTwo {
+    position: relative;
+    left: 160px;
+        top: 110.5px;
+	}
+	.slideOne .stackThreeDiagonalOne,
+	.slideThree .stackThreeDiagonalOne {
+        position: relative;
+        left: 178.5px;
+            top: 116.5px;
+	}
+	/*//////////////////////*/
+	/*////////////////////////*/
+	.slideOne .stackTwoDiagonalTwo,
+	.slideThree .stackTwoDiagonalTwo {
+       position: relative;
+    left: 69px;
+    top: 190.5px;
+	}
+	.slideOne .stackTwoDiagonalOne,
+	.slideThree .stackTwoDiagonalOne {
+     position: relative;
+    left: 50px;
+    top: 196.5px;
+	}
+	/*///////////////////
 	////////////////////*/
-
-.slideOne .stackOneDiagonalOne,
-.slideThree .stackOneDiagonalOne {
-	position: relative;
-	left: 140px;
-	top: 273.5PX;
-}
-
-
-/*	For animation coins adjustments */
-
-.slideTwo .stackThreeDiagonalThree,
-.slideFour .stackThreeDiagonalThree {
-	position: relative;
-	left: 131.5px;
-	top: 104.5px;
-}
-
-.slideTwo .stackThreeDiagonalTwo,
-.slideFour .stackThreeDiagonalTwo {
-	position: relative;
-	left: 150px;
-	top: 110.5px;
-}
-
-.slideTwo .stackThreeDiagonalOne,
-.slideFour .stackThreeDiagonalOne {
-	position: relative;
-	left: 169px;
-	top: 116.5px;
-}
-
-
-/*//////////////////////*/
-
-
-/*////////////////////////*/
-
-.slideTwo .stackTwoDiagonalTwo,
-.slideFour .stackTwoDiagonalTwo {
-	position: relative;
-	left: 59px;
-	top: 190.5px;
-}
-
-.slideTwo .stackTwoDiagonalOne,
-.slideFour .stackTwoDiagonalOne {
-	position: relative;
-	left: 40.5px;
-	top: 196.5px;
-}
-
-
-/*///////////////////
+	.slideOne .stackOneDiagonalOne,
+	.slideThree .stackOneDiagonalOne {
+		position: relative;
+        left: 140px;
+        top: 273.5PX;
+	}
+	
+	/*	For animation coins adjustments */
+	.slideTwo .stackThreeDiagonalThree,
+	.slideFour .stackThreeDiagonalThree {
+		    position: relative;
+            left: 131.5px;
+            top: 104.5px;
+	}
+	.slideTwo .stackThreeDiagonalTwo,
+	.slideFour .stackThreeDiagonalTwo {
+		position: relative;
+		left: 150px;
+    	top: 110.5px;
+	}
+	.slideTwo .stackThreeDiagonalOne,
+	.slideFour .stackThreeDiagonalOne {
+        position: relative;
+        left: 169px;
+        top: 116.5px;
+	}
+	/*//////////////////////*/
+	/*////////////////////////*/
+	.slideTwo .stackTwoDiagonalTwo,
+	.slideFour .stackTwoDiagonalTwo {
+        position: relative;
+        left: 59px;
+        top: 190.5px;
+	}
+	.slideTwo .stackTwoDiagonalOne,
+	.slideFour .stackTwoDiagonalOne {
+        position: relative;
+        left: 40.5px;
+        top: 196.5px;
+	}
+	/*///////////////////
 	////////////////////*/
-
-.slideTwo .stackOneDiagonalOne,
-.slideFour .stackOneDiagonalOne {
-	position: relative;
-	left: 130.5px;
-	top: 273.5px;
-}
+	.slideTwo .stackOneDiagonalOne,
+	.slideFour .stackOneDiagonalOne {
+        position: relative;
+        left: 130.5px;
+        top: 273.5px;
+	}
